@@ -5,10 +5,10 @@ The current version works by integrating Utilio with Oracle Utilities Applicatio
 
 ## Project Goal
 The goal is to make Utilio:
-- ** insightful
-- ** omni-channel compatible
-- ** supportive to purposeful automation
-- ** one stop shop 
+- ** insightful **
+- ** omni-channel compatible **
+- ** supportive to purposeful automation **
+- ** one stop shop **
 Training this bot requires a colloquial feed of user-CSR conversations to match the local lingo that personifies the chat experience of the user unique to every implementation. Features of RASA empower this  alongwith easy DEV to PROD deployment and live training of the assistant by use of RASA X.
 
 ## Setup and installation
