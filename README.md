@@ -36,7 +36,7 @@ Utisto responds to a user's ping in multiple lingos. The AI understands the user
 At this point, the user may choose to click on the on-screen buttons or enter a query without necessarily following a uni-directional flow.
 Utisto responds with the best possible reponse. 
 
-For a generic flow demo, consider the below snap of Utisto enabling a Utility's Customer to know his current balance. (More test results can be found in **utisto/tests/**)
+For a generic flow demo, consider the below snap of Utisto helping a Utility's Customer with his current due balance. (More test results can be found in **utisto/tests/**)
 
 ![image](https://user-images.githubusercontent.com/71168871/96847160-78c4fb00-1470-11eb-8ad3-6d613c6fb6a1.png)
 
