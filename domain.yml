@@ -11,6 +11,7 @@ intents:
 - acctId_collector
 - payments_and_billings
 - account_balance
+- payment_history
 entities:
 - customerName
 - acctId
@@ -24,20 +25,25 @@ responses:
       title: Payments & Billing
     - payload: /utter_collect_name
       title: Customer Support
-    text: Hey! I am Utilio. Please select from the menu options or type in your query.
+    - payload: /utter_collect_name
+      title: Usage Review
+    - payload: /utter_collect_name
+      title: Offers & Discounts
+    text: Hey! I'm Utisto, your utility assistant. Please select from the below menu
+      options or type in your query.
   utter_exist_customer:
   - text: Are you an existing customer?
   utter_collect_name:
-  - text: Great, may I please have your name?
+  - text: Okay, may I please have your name?
   utter_PnB_menu_options:
   - buttons:
     - payload: /account_balance
       title: Check Balance
-    - payload: /utter_collect_name
+    - payload: /payment_history
       title: Track Payment History
-    text: Please select from the menu options or type in your query.
+    text: Please select from the below menu options or type in your query.
   utter_collect_acctId:
-  - text: Great, may I please have your 10 digit account ID?
+  - text: Sure, may I please have your 10 digit account ID?
   utter_did_that_help:
   - text: Did that help you?
   utter_goodbye:
@@ -47,6 +53,7 @@ responses:
 actions:
 - action_display_address
 - action_acct_info
+- action_paymt_dtls
 - utter_ask_rephrase
 - utter_goodbye
 - utter_iamabot
