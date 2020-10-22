@@ -38,8 +38,8 @@ Utisto responds with the best possible reponse.
 
 For a generic flow demo, consider the below snap of Utisto enabling a Utility's Customer to know his current balance. (More test results can be found in **utisto/tests/**)
 
-![image](https://user-images.githubusercontent.com/71168871/96767916-cf8fed80-13fa-11eb-974f-000602b89c47.png)
+![image](https://user-images.githubusercontent.com/71168871/96847160-78c4fb00-1470-11eb-8ad3-6d613c6fb6a1.png)
 
 **Note**: Unlike most NLU/P solutions that require "handing-over" of transactional data, RASA eliminates this transfer and can facilitate a ready-to-use solution with minimalistic resources. To further maximize security, Utisto relies on real-time SOAP requests to a web service of the OUAF edge app in the network, instead of database calls. Utisto loads the contextual **operation** of the web service to reduce time lags when in a given flow.
 
-The current project covers the development of the IWS in CC&B/C2M. The IWS and hence Utisto are customizable components to adhere to a Utility's data mapping.
+The current project includes the development of the IWS in CC&B/C2M. The IWS and hence Utisto are customizable components to adhere to a Utility's data mapping.
