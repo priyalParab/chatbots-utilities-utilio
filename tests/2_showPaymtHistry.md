@@ -7,4 +7,4 @@ that maps uniquely to an account in CC&B
 
 ## Multi-level flow
 
-![image](https://user-images.githubusercontent.com/71168871/96768058-ff3ef580-13fa-11eb-944c-a5279a4c5372.png)
+![image](https://user-images.githubusercontent.com/71168871/96847205-84b0bd00-1470-11eb-93c3-23d9412c3a12.png)
